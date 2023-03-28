@@ -1,7 +1,9 @@
 <div class="wrapper">
   <div class='box'>
     <% @trees.each do |tree| %>
+      <%= link_to tree_path(tree) do %>
       <%= image_tag('arbre.png') %>
+      <% end %>
     <% end %>
   </div>
 </div>
