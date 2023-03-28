@@ -1,0 +1,26 @@
+.navbar {
+  height: 44px;
+  background-color: #233D1B;
+  display: flex;
+  justify-content: space-around;
+
+  .btn-navbar {
+    height: 30px;
+    width: 100px;
+    background-color: #9B6947;
+    border-radius: 4px;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      vertical-align: bottom;
+      line-height: normal;
+      color: #212529;
+    }
+  }
+
+  .btn-navbar:hover {
+    background-color: white;
+    transition: 0.3s;
+  }
+}
