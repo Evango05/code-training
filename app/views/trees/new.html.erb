@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <div class="container">
+    <%= simple_form_for @tree do |f| %>
+      <%= f.input :name, placeholder: 'Walnut Tree' %>
+      <%= f.input :address, placeholder: '28 Great George St' %>
+      <%= f.input :fruit_type, placeholder: 'Nut' %>
+      <%= f.input :description, placeholder: 'Beautiful Tree with many branches...' %>
+      <%= f.input :price_per_year, placeholder: '140 €' %>
+      <%= f.input :quantity_per_year, placeholder: '35' %>
+    <% end %>
+  </div>
+</div>
